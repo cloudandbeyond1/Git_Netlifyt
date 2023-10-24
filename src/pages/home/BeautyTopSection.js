@@ -65,7 +65,7 @@ const BeautyTopSection = ({
     
       </div>
       <div>
-        <h2 className="h2-style">have the confidence of the knowing you look your absolute best</h2>
+        <h2 className="h2-style">have the confidence of knowing you look your absolute best</h2>
       </div>
 
       <div className="justify-content-center d-flex my-5">
