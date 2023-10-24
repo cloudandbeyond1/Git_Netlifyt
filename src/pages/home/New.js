@@ -44,7 +44,7 @@ const ComprehensiveWellness = ({ spaceTopClass, spaceBottomClass, dateTime }) =>
              
                 <img
                   src="/assets/img/product/fashion/35.jpg"
-                  alt="Rezingo"
+                  alt=""
                   className="img-fluid h-b1"
                 
                 />
