@@ -150,10 +150,15 @@ console.log(userEmail,Email,idToken,"token")
         console.log(idToken,"idToken123");
        let obj = JSON.stringify(Email);
        window.name = obj;
+<<<<<<< HEAD
         window.parent.postMessage(JSON.stringify(Email),"http://localhost:3001/");
       window.location.href = `http://localhost:3001/`;
+=======
+        window.parent.postMessage(JSON.stringify(Email),"https://rezingo-member.netlify.app/dashboard");
+      window.location.href = `https://rezingo-member.netlify.app/dashboard`;
+>>>>>>> a84e210725c44e0998f48a591fba5789eb32ec2f
       });
-
+//http://member.rezingo.com/
     }
     else{
       console.log(user,"usernull");
