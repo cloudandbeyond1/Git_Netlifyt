@@ -150,8 +150,8 @@ console.log(userEmail,Email,idToken,"token")
         console.log(idToken,"idToken123");
        let obj = JSON.stringify(Email);
        window.name = obj;
-        window.parent.postMessage(JSON.stringify(Email),"http://member.rezingo.com/");
-      window.location.href = `http://member.rezingo.com/`;
+        window.parent.postMessage(JSON.stringify(Email),"http://localhost:3001/");
+      window.location.href = `http://localhost:3001/`;
       });
 
     }
