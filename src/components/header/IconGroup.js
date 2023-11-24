@@ -151,7 +151,7 @@ console.log(userEmail,Email,idToken,"token")
        let obj = JSON.stringify(Email);
        window.name = obj;
         window.parent.postMessage(JSON.stringify(Email),"http://localhost:3001/");
-      window.location.href = `http://localhost:3001/`;
+      window.location.href = `https://rezingo-member.netlify.app/dashboard`;
       });
 
     }
@@ -237,7 +237,7 @@ console.log(userEmail,Email,idToken,"token")
       </li>
       {/* <li style={{display:"flex"}}>
       <i className="fa fa-user" style={{color:"#6a6a6a",marginTop:"3px",fontSize:"21px",marginRight:"7px"}} />
-        <Link to={"https://rezingo-member.netlify.app/dashboard"}>{user?.email}</Link>
+        <Link to={"http://member.rezingo.com/UserInfo.html"}>{user?.email}</Link>
       </li> */}
       <li style={{display:"flex",marginTop:"10px",borderBottom:"1px solid #eff2f7"}}>
       <i className="fa fa-windows" style={{color:"#6a6a6a",marginTop:"7px",fontSize:"17px",marginRight:"20px"}} />
